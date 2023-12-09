@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: JetBrains;
+    src: url(fonts/JetBrainsMono-Regular.ttf);
+}
+  
+body {
+    font-family: JetBrains;
+}

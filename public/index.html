@@ -2,20 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Isciuc Iustin - Constantin</title>
-
-    <script defer src="/__/firebase/10.7.1/firebase-app-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-performance-compat.js"></script>
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1"
+    >
+    <title>
+      Isciuc Iustin - Constantin
+    </title>
         <link 
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
           rel="stylesheet" 
@@ -32,7 +25,6 @@
         >
   </head>
   <body>
-
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid d-flex justify-content-center">
         <span class="navbar-brand mx-auto h1">
@@ -45,41 +37,26 @@
     <main>
       <div class="mx-5">
          <p>
-          This site is in progress if you want to know me visit my:
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/isciuc-iustin-constantin-a730161a7/">Linkedin</a>
-            </li>
-            <li>
-              <a href="https://github.com/isciuciustin">Github</a>
-            </li>
-          </ul>
+            This site is in progress if you want to know me visit my:
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/isciuc-iustin-constantin-a730161a7/">
+                  Linkedin
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/isciuciustin">
+                  Github
+                </a>
+              </li>
+            </ul>
          </p>
       </div>
     </main>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous">
+  </script>
   </body>
 </html>
